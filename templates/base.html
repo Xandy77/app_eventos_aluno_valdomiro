@@ -19,8 +19,12 @@ crossorigin="anonymous">
 
      <!-- conteúdo da página -->
       <main>
-        {% block content %}{% endblock %}
+      {% block content %}{% endblock %}
       </main>
+
+      <!-- footer -->
+      {% include 'footer.html' %}
+
 
     <!-- js bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
